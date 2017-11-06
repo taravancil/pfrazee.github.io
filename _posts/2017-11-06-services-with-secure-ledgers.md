@@ -6,11 +6,11 @@ desc:
 
 There's a push in the decentralization world to use Bitcoin variants as the solution for everything: databases, user identity, key distribution, even basic hosting.
 
-I am strongly against this due to the excessive cost of Proof-of-Work.
+I am strongly against this due to the excessive cost of Proof-of-work.
 
-Proof-of-Work requires every operator in the network to run throw-away computation, which costs electricity.
+Proof-of-work requires every operator in the network to run throw-away computation, which costs electricity.
 There's a technical reason for doing it, but, economically speaking, that computation acts as a kind of lottery for the operators.
-If they win the lottery, they earn some amount of Bitcoin-- so the higher Bitcoin is worth, the more electricity they're willing to spend.
+If they win the lottery, they earn some amount of Bitcoin — so the higher Bitcoin is worth, the more electricity they're willing to spend.
 
 This has had a predictable result!
 <a href="https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change" title="One Bitcoin Transaction Now Uses as Much Energy as Your House in a Week">"One Bitcoin transaction uses as much energy as your house in a week" according to Motherboard</a>.
@@ -31,15 +31,15 @@ Perhaps, one day in the future, Bitcoin will remove a little friction around mic
 Hurray?
 I frequently describe myself as a "decentralization nut" and for me, this just isn't worth the ecological impact.
 
-The more I've worked in this space -- on [Secure Scuttlebutt](https://scuttlebutt.nz) first, and now on the [Dat](https://datproject.org) protocol and the [Beaker Browser](https://beakerbrowser.com) -- the more convinced I've become that blockchains are a huge step forward, but Proof-of-Work is a total mistake.
+The more I've worked in this space — on [Secure Scuttlebutt](https://scuttlebutt.nz) first, and now on the [Dat](https://datproject.org) protocol and the [Beaker Browser](https://beakerbrowser.com) — the more convinced I've become that blockchains are a huge step forward, but proof-of-work is a total mistake.
 
 And, for some people, that's a surprise.
-The way cryptocurrencies have been sold to us, it's reasonable to assume that Proof-of-Work and blockchains are one in the same.
+The way cryptocurrencies have been sold to us, it's reasonable to assume that proof-of-work and blockchains are one in the same.
 They are not!
-Nor do blockchains do not require Proof-of-Work.
-They're separate concepts; and blockchains can work without Proof-of-Work and still provide an enormous benefit.
+Nor do blockchains do not require proof-of-work.
+They're separate concepts; and blockchains can work without proof-of-work and still provide an enormous benefit.
 
-In fact, I argue that Proof-of-Work is a political solution tacked onto blockchains -- a hail mary attempt to provide a cure-all to power dynamics -- and it completely fails at its purpose.
+In fact, I argue that proof-of-work is a political solution tacked onto blockchains — a hail mary attempt to provide a cure-all to power dynamics — and it completely fails at its purpose.
 
 However!
 The data structure of a blockchain can be applied to traditional services to introduce cryptographic auditability, and it's the value of that use-case that I want to convince you of today.
@@ -91,14 +91,14 @@ Proof-of-Work is a system for creating "decentralized consensus."
 
 It's a kind of computation which takes a predictable amount of time to run.
 Agreeing about the order of events is very difficult in computer networks, especially if you can't trust the other computers involved.
-Proof-of-Work solves that problem by putting the network on a trustworthy clock.
+proof-of-work solves that problem by putting the network on a trustworthy clock.
 
 <br>
 
 ## Ok, what's decentralized consensus?
 
 Decentralized consensus is a system where multiple computers can make additions to a blockchain without having to trust each other.
-This involves a lot of technical coordination - thus Proof-of-Work.
+This involves a lot of technical coordination - thus proof-of-work.
 
 Decentralized consensus *is intended* to mean that one entity can't control the blockchain network.
 Any newcomer can participate, and ownership is equally distributed among the participants.
@@ -109,7 +109,7 @@ Any newcomer can participate, and ownership is equally distributed among the par
 
 To some degree.
 Decentralized consensus places control of the network into a purchasable metric.
-With Proof-of-Work, that metric is hashing power.
+With proof-of-work, that metric is hashing power.
 
 This is actually a pretty cool idea.
 Hashing power is created by computing hardware, and you don't need to ask anyone permission to buy computers.
@@ -132,29 +132,29 @@ How is that significantly better than the board of a publicly traded company?
 This is why I'm unimpressed with decentralized consensus as a political solution.
 Bitcoin has been wildly unstable, with controversies and forks happening querterly.
 I personally suspect stability will actually mean "dominant ownership."
-It doesn't seem like a unique victory over political realities, and it *still* comes with the <a href="https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change" title="One Bitcoin Transaction Now Uses as Much Energy as Your House in a Week">high cost of Proof-of-Work</a>.
+It doesn't seem like a unique victory over political realities, and it *still* comes with the <a href="https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change" title="One Bitcoin Transaction Now Uses as Much Energy as Your House in a Week">high cost of proof-of-work</a>.
 
 <br>
 
-## Ok, what about Proof-of-Stake?
+## Ok, what about proof-of-stake?
 
-Some folks in the crypto-coin world -- most notably, Ethereum -- have been working on a new solution for decentralized consensus called Proof-of-Stake.
-It is an attempt to solve the cost problem of Proof-of-Work, and it involves no excessive energy use.
+Some folks in the crypto-coin world — most notably, Ethereum — have been working on a new solution for decentralized consensus called proof-of-stake.
+It is an attempt to solve the cost problem of proof-of-work, and it involves no excessive energy use.
 
-I like the spirit of Proof-of-Stake, because it tries to solve the problem, but I'm going to point out two things:
+I like the spirit of proof-of-stake, because it tries to solve the problem, but I'm going to point out two things:
 
- 1. Proof-of-Stake is not yet proven, and, prior to Proof-of-Work, nobody was sure that decentralized consensus was possible. When Proof-of-Work started to be discuseed, computer scientists were running naked in the streets with excitement. Therefore I default to extreme skepticism -- but I'll keep my eye out for any nerdy-looking streakers.
- 2. Anybody who's been involved in crypto-currencies for more than a year who smoothly transitions from "PoW is a great revolution" to "obviously PoW was never the long term solution" deserves a hard poke in the eye for the duration of my choosing.
+ 1. Proof-of-Stake is not yet proven, and, prior to proof-of-work, nobody was sure that decentralized consensus was possible. When Proof-of-Work started to be discuseed, computer scientists were running naked in the streets with excitement. Therefore I default to extreme skepticism -- but I'll keep my eye out for any nerdy-looking streakers.
+ 2. Anybody who's been involved in crypto-currencies for more than a year who smoothly transitions from "Proof-of-work is a great revolution" to "obviously proof-of-work was never the long term solution" deserves a hard poke in the eye for the duration of my choosing.
 
-I'd explain Proof-of-Stake here, except that I don't totally understand it yet.
+I'd explain proof-of-stake here, except that I don't totally understand it yet.
 From what I understand, it involves operators placing some of their currency holdings into a shared pot.
 Then, a random lottery is chosen from those operators, with weighting given for the people who put value into the pot.
-And -- I *think* -- you risk losing what you place in the pot if you do something provably incorrect during your turn as the leader.
+And — I *think* — you risk losing what you place in the pot if you do something provably incorrect during your turn as the leader.
 
 (That could be wrong.
 If somebody on HN or Twitter corrects me, I'll update it.)
 
-Proof-of-Stake could work out.
+Proof-of-stake could work out.
 It could be great.
 I'm waiting to see.
 Until then, let's talk about another option that I think can work just fine: services with blockchains.
@@ -167,7 +167,7 @@ Until then, let's talk about another option that I think can work just fine: ser
 What most people don't realize ... hmm, wait.
 I got some feedback here.
 
-While I'm told I did a wonderful job explaining that "blockchain" does not refer to Proof-of-Work, I'm told that hype is too strong, and that I need to use another term.
+While I'm told I did a wonderful job explaining that "blockchain" does not refer to proof-of-work, I'm told that hype is too strong, and that I need to use another term.
 So I'm going to use another term instead: **secure ledgers**.
 
 Conceptually it's exactly the same, but it's a bit more generic, and it has no baggage of connection to PoW.
@@ -205,15 +205,15 @@ If we've reviewed the business logic and trust it, and we never observe a deviat
 
 I love to point out when we're stealing from [Certificate Transparency](https://www.certificate-transparency.org/), because it's a well-respected protocol created by Google to monitor SSL certificate authorities, and this is just another one of those cases.
 
-CT is a superb example of this design.
-Each Certificate Authority maintains a secure ledger of its certificate assignments.
+Certificate Transparency (CT) is a superb example of this design.
+Each certificate authority (CA) maintains a secure ledger of its certificate assignments.
 Monitor-nodes and clients compare the certs they receive against the chain to make sure the rules of certification are always being followed.
 [It's already been used to catch Symantec in the act of breaking the business rules of Certificate Transparency.](https://sslmate.com/blog/post/ct_redaction_in_chrome_53)
 (Basically, they used a "redaction" feature that wasn't in the agreed-upon rules.)
 
 <img src="/assets/img/certificate_tranpsarency_diagram.png" class="centered">
 
-A friend pointed out that Git is also an example of a secure ledger -- which is true.
+A friend pointed out that Git is also an example of a secure ledger — which is true.
 It uses a chain of cyrptographic hashes to secure the history of the code.
 However, Git wasn't designed for auditing the actions of a live service, and it therefore (wisely) allows branches and force-pushes which break the append-only constraint which we need for accountability.
 
@@ -231,15 +231,15 @@ The only way the state of the service can be changed is by the rules of the publ
 That means that the code is a kind of contract; if the contract is broken, the clients can prove it was broken, and publish that proof.
 
 Compared to decentralized consensus, a ledger-backed service provides the exact same level of auditability.
-It trades the interchangeability of hosts for a much cheaper operating model -- no Proof-of-Work.
-Given the cost of PoW, I think that's a huge win.
+It trades the interchangeability of hosts for a much cheaper operating model — no proof-of-work.
+Given the cost of proof-of-work, I think that's a huge win.
 
 There are some downsides to losing decentralized consensus.
 A ledger-backed service could manipulate the order in which it handles requests, or reject some requests altogether, and clients would have a hard time proving it.
 You could combat that problem using a third-party proxy, which logs the attempted calls and notes the responses from the host.
 The other downside is that, without decentralized consensus, the only way to handle a misbehaving service is to stop using it -- whereas Bitcoin can just ignore the misbehaving miner.
 
-As a proof-of-concept, I have written an auditable server called [NodeVMS](https://nodevms.com) which uses code from [Dat](https://datproject.org) to provide the secure ledger.
+As a proof-of-concept, I wrote an auditable server called [NodeVMS](https://nodevms.com) which uses code from [Dat](https://datproject.org) to provide the secure ledger.
 (Dat contains a secure ledger implementation called Hypercore, typically used for distributing files in a p2p mesh.
 Here it's used to distribute the state and activity log of the service.)
 VMS is not at production-ready, but it demonstrates the core ideas of this design.
